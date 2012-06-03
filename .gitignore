@@ -1,0 +1,11 @@
+# Directories
+/node_modules
+/out
+/sandbox
+
+# NPM
+/npm-debug.log
+/npm-shrinkwrap.json
+
+# Emacs files
+.#*

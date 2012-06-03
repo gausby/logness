@@ -1,0 +1,20 @@
+{
+    "name": "Logness",
+    "version": "0.0.1",
+    "private": true,
+    "description": "A wrapper for the syslog function",
+    "author": "Martin Gausby <martin@gausby.dk>",
+    "repository": "git@github.com:gausby/logness.git",
+    "dependencies": {
+        "json3": ">= 3.2.2"
+    },
+    "devDependencies": {
+        "buster": ">= 0.5.3"
+    },
+    "scripts": {
+        "start": "rlwrap node repl.js",
+        "test": "./node_modules/buster/bin/buster test",
+        "test-runner": "./node_modules/buster/bin/buster autotest"
+    },
+    "engine": "node 0.6.17"
+}
