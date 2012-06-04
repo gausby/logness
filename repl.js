@@ -1,7 +1,7 @@
 /* global require */
 var repl = require('repl')
-,   message = require('./lib/message')
+,   Logness = require('./lib/logness')
 ;
 
 var local = repl.start('> ');
-local.context.message = message;
+local.context.Logness = Logness;
