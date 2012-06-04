@@ -6,7 +6,6 @@
     "author": "Martin Gausby <martin@gausby.dk>",
     "repository": "git@github.com:gausby/logness.git",
     "dependencies": {
-        "json3": ">= 3.2.2"
     },
     "devDependencies": {
         "buster": ">= 0.5.3"
