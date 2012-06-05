@@ -1,5 +1,5 @@
 {
-    "name": "Logness",
+    "name": "logness",
     "version": "0.0.2",
     "description": "A wrapper for the Mac OS X syslog function that allows you to bind functions to log events.",
     "author": "Martin Gausby <martin@gausby.dk>",
