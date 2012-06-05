@@ -1,19 +1,24 @@
 {
     "name": "Logness",
-    "version": "0.0.1",
-    "private": true,
-    "description": "A wrapper for the syslog function",
+    "version": "0.0.2",
+    "description": "A wrapper for the Mac OS X syslog function that allows you to bind functions to log events.",
     "author": "Martin Gausby <martin@gausby.dk>",
     "repository": "git@github.com:gausby/logness.git",
+    "bugs": {
+        "url" : "http://github.com/gausby/logness/issues",
+        "email" : "martin@gausby.dk"
+    },
     "dependencies": {
     },
     "devDependencies": {
         "buster": ">= 0.5.3"
     },
+    "main": "lib/logness.js",
     "scripts": {
         "start": "rlwrap node repl.js",
         "test": "./node_modules/buster/bin/buster test",
-        "test-runner": "./node_modules/buster/bin/buster autotest"
+        "test-runner": "./node_modules/buster/bin/buster autotest",
+        "prepublish": "npm install && ./node_modules/buster/bin/buster test"
     },
     "engine": "node 0.6.17"
 }
